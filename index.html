@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+</head>
+<body>
+
+    <div class="wrapper-main">
+        <h1 class="header">Partys</h1>
+      
+    <table id="table">
+        <tr id="table-row">
+            <td id="name">Jesse</td>
+            <td id="date">5-16-24</td>
+            <td id="time">3:30 PM</td>
+            <td id="location">Denver</td>
+            <td id="description">Birthday</td>
+            <td><button id="deleteButton">Delete</button></td>
+        </tr>
+    </table>
+</div>
+    <br>
+    <form id="form">
+        <div>
+        <label for="name">Name</label>
+        <input id="formName" name="name" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date</label>
+            <input id="formDate" name="date" type="date">
+        </div>
+        <br>
+        <div>
+            <label for="time">Time</label>
+            <input id="formTime" name="time" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="location">Location</label>
+            <input id="formLocation" name="location" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="description">Description</label>
+            <textarea id="formDescription" name="description"></textarea>
+        </div>
+        <br>
+        <div>
+        <button type="reset">Reset</button>
+        </div>
+        <br>
+        <div>
+        <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+    <script src='script.js'></script>
+</body>
+</html>

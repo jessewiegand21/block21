@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border: solid black 2px;
+}
+.wrapper-main {
+    width: 75%;
+    margin: 0 auto;
+}
+tr {
+    text-align: center;
+}
+td {
+    border: 2px solid black;
+    background-color: aqua;
+}
+
+input, label {
+    display: block;
+}
+h1 {
+    text-align: center;
+}
+
+
+
